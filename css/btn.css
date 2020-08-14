@@ -1,26 +1,12 @@
 
 /* Top logo */
 
-.logoA{
-  display: block;
 
-  margin: auto;
-  padding: 0% 0% 0% 0%;
-  font-size: 2rem;
-  font-family: 'Dosis', sans-serif;
-  text-decoration: underline;
-  color: #fff;
-  background: #ff003b;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  transition: all .35s;
-}
 
 .logo {
   justify-content: center;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1em;
   text-decoration: underline;
   font-style: italic;
 }

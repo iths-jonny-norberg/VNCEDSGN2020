@@ -74,7 +74,7 @@ a:hover
   margin-bottom: 5px;
   position: relative;
   
-  background: crimson;
+  background: #FF0033;
   border-radius: 3px;
   
   z-index: 1;
@@ -169,7 +169,7 @@ a:hover
 
 li:hover
 {
- background-color: crimson;
+ background-color: #FF0033;
  transition: background-color 0.4s ease;
 }
 
