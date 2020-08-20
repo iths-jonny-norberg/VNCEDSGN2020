@@ -248,7 +248,7 @@ article {
 
 .headOne {
 
-  color: beige;
+
   text-align: center;
   align-items: center;
   align-self: center;
@@ -655,6 +655,54 @@ h3 span {
     
     height: 50vh;
 
+  }
+
+
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    line-height: 0.9em;
+    color: #FF0033;
+    margin: 0px;
+    margin-left: 0.5em;
+    margin-top: -7em;
+    padding-top: 0vh;
+    text-align: left;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+  }
+  
+  h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    line-height: 0.9em;
+    
+    color: #090909;
+    margin: 0px;
+    margin-left: 0.5em;
+    margin-top: -7em;
+    padding-top: 0vh;
+    text-align: left;
+    align-items: center;
+    position: relative;
+    z-index: 9;
+  }
+  
+  
+  h2 span {
+    background: #FF0033;
+    color: #fff;
+    padding: 0 20px;
+  }
+  
+  
+  
+  
+  h3 span {
+    background: #090909;
+    color: #fff;
+    padding: 0 20px;
   }
 
 
