@@ -46,6 +46,8 @@ body {
 
 }
 
+
+
 .icon2 {
 
   width: 40px;
@@ -54,6 +56,8 @@ body {
   display: block;
 
 }
+
+
 
 .icon3 {
 
@@ -165,7 +169,7 @@ article {
 /* DESIGNER */
 
 
-.bgOne {
+.bgDark {
   background-color: #1D1B22;
   width: 100%;
   text-align: left;
@@ -465,6 +469,12 @@ h3 span {
 
 @media screen and (max-width: 830px) {
 
+  article {
+
+    height: 80vh;
+
+  }
+
   .logoA{
     height: 5%;
     padding: 1% 0% 0% 0%;
@@ -521,6 +531,12 @@ h3 span {
 
 @media screen and (max-width: 750px) {
 
+  article {
+
+    height: 70vh;
+
+  }
+
 /* Icons */
 
 .icon {
@@ -548,6 +564,12 @@ h3 span {
 
 
 @media screen and (max-width: 640px) {
+
+  article {
+
+    height: 60vh;
+
+  }
 
   img {
     width: 90%;
@@ -595,6 +617,7 @@ h3 span {
 
 @media screen and (max-width: 610px) {
 
+
 .logoA{
   height: 3.5%;
   padding: 1% 0% 0% 0%;
@@ -622,5 +645,17 @@ h3 span {
 }
 
 /* Icons */
+
+}
+
+
+@media screen and (max-width: 500px) { 
+
+  article {
+    
+    height: 50vh;
+
+  }
+
 
 }
