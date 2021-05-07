@@ -1,0 +1,247 @@
+/*
+body {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%; 
+  overflow-x: hidden;
+  background: #fb97bd;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 200ms;
+  will-change: background;
+  background: radial-gradient(circle farthest-side, #f38eb5, #e0d4c1);
+}
+*/
+
+
+
+
+body {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%; 
+  overflow-x: hidden;
+  background: #efefef;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+.container {
+  max-width: 1366px;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  vertical-align: middle;
+  position: relative;
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+article {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  vertical-align: middle;
+  margin:0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 5em;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  background-color: coral;
+}
+
+
+
+
+.space-top {
+  margin-top: 5em;
+}
+
+.space-top2 {
+ background-color: aqua;
+  margin-top: 5em;
+}
+
+/*img {
+  width: 100%;
+
+}
+*/
+
+.full {
+  width: 100%;
+
+}
+
+.small {
+  width: 60%;
+
+}
+
+.colImg {
+  width: 90%;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  vertical-align: middle;
+  filter: drop-shadow(20px 15px 20px rgba(0,0,0,.5));
+
+}
+
+h1 {
+  font-family: 'Morning Glory', sans-serif;
+  color: #8201a4;
+  font-size: 3em;
+
+}
+
+h3 {
+  font-family: 'Westhouse', sans-serif;
+  color: #8201a4;
+  font-size: 4.5em;
+
+}
+
+h4 {
+  font-family: 'Coco Gothic Regular', sans-serif;
+  color: #8201a4;
+  font-size: 3em;
+
+}
+
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #8201a4;
+  font-size: 2.5em;
+  font-weight: normal;
+
+}
+
+
+.orange {
+  color: #FE5810;
+}
+
+.pink {
+  color: #ff054b;
+}
+
+
+.TxtArea {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin: auto;
+
+}
+
+
+.BannerArea {
+  width: 80%;
+  text-align: center;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  margin: auto;
+
+}
+
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #4c454d;
+
+}
+
+
+
+/**  Color Palette  */
+
+
+.f-color-chips {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.f-color-chip {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  -webkit-flex-basis: 100%;
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+  border-top-width: 8em;
+  border-top-style: solid;
+  border-bottom-width: 0;
+  border-bottom-style: solid;
+  color: #4c454d;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.75em;
+  padding: 1em;
+  margin-bottom: 2em; }
+  @media (min-width: 60em) {
+    .f-color-chip {
+      -webkit-flex-basis: 13em;
+          -ms-flex-preferred-size: 13em;
+              flex-basis: 13em; } }
+  .f-color-chip .f-color-chip__color  {
+
+    content: attr(data-color);
+    font-weight: 400; }
+
+
+
+    /*  Helpr specific css  */
+
+    @font-face {
+      font-family: 'Westhouse';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Westhouse'), url('Westhouse.woff') format('woff');
+      }
+
+    /*  Helpr specific css  */
